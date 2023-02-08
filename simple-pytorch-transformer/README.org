@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       C799F803-03C8-4C3B-BF6F-091138C20EB9
+:ROAM_REFS: https://pytorch.org/tutorials/beginner/transformer_tutorial.html# https://github.com/pytorch/tutorials/blob/master/beginner_source/transformer_tutorial.py
+:END:
+#+title: simple pytorch transformer
+
