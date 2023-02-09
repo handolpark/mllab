@@ -1,0 +1,9 @@
+# Emacs
+*~
+
+# direnv
+/.direnv/
+
+# Python
+.ipynb_checkpoints/
+dist/

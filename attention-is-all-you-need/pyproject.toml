@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "attention-is-all-you-need"
+version = "0.1.0"
+description = ""
+authors = ["Handol Park <handolpark12@gmail.com>"]
+readme = "README.org"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.13.1"
+torchvision = "^0.14.1"
+torchaudio = "^0.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
