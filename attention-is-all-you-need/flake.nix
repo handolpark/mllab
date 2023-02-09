@@ -18,7 +18,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
 
         myApp = mkPoetryApplication {
-          projectDir = self;
+          projectDir = ./.;
         };
       in
       {

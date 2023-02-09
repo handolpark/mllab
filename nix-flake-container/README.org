@@ -1,0 +1,21 @@
+#+title: Building Docker Image Using Nix Flake
+
+#+begin_src shell
+  nix build .\#imageAarch64Multiplatform
+#+end_src
+
+#+RESULTS:
+
+#+begin_src shell
+  docker load < ./result
+#+end_src
+
+#+RESULTS:
+: Loaded image: hello-docker:60i6fbm839gh7h61bpyj9zz46jkpz5a2
+
+#+begin_src shell
+  docker run -t hello-docker:60i6fbm839gh7h61bpyj9zz46jkpz5a2
+#+end_src
+
+#+RESULTS:
+| Hello | world! |
